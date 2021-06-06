@@ -9,6 +9,7 @@ function App() {
     selected: {}
   });
 
+  
   const apiurl = "http://www.omdbapi.com/?i=tt3896198&apikey=4582b002";
 
   const search = (m) => {
@@ -23,7 +24,7 @@ function App() {
     }
   }
 
-  
+
   const handleInput =(m) => {
     let s = m.target.value;
     
